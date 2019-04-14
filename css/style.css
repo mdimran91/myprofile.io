@@ -51,7 +51,7 @@ body{
     padding: 20px;
     font-size: 18px;
     text-align: center;
-    background: rgba(0, 0,0, 0.7);
+    background: rgba(0, 0,0, 0.4);
 }
 
 .profile-img{
@@ -95,6 +95,10 @@ body{
 .fab:hover{
     color: #d14f11;
 }
+
+.portfolio{
+    background: rgba(238,238,238, 1);
+}
 .portfolio-wrapper{
     overflow: hidden;
     margin-bottom: 50px;
@@ -110,13 +114,12 @@ body{
    width: 50%;
    float: left;
    list-style: none;
-   margin-bottom: 30px;
+   margin-bottom: 50px;
 }
 
 .portfolio-list li img{
     width: 30%;
     height: 300px;
-    border: 2px solid #5e5b5b;
     float: left;
 }
 
