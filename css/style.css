@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: lighter;
+    color: #434343;
+}
+
+.bg-img{
+    background-image: url(../images/bg.gif);
+    height: 100vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.container-main{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.profile{
+    color: white;
+    margin-top: 20px;
+    float: left;
+}
+
+.profile h1{
+    font-size: 36px;
+}
+
+.name{
+    color: #ffffff;
+    margin-top: 20px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.name h1{
+    font-size: 36px;    
+}
+
+.name h2{
+    font-size: 30px;
+}
+
+.name p{
+    margin-top: 10px;
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+    background: rgba(0, 0,0, 0.7);
+}
+
+.profile-img{
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.profile-img img{
+    width: 200px;
+    height: 200px;
+}
+
+.social-icon{
+    float: right;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+.contact h3{
+    color: white;
+    float: left;
+}
+
+.social-icon ul{
+    float: right;
+}
+.social-icon li{
+    float: left;
+    list-style: none;
+    padding: 10px 10px;
+    overflow: hidden;
+}
+
+.fab{
+    font-size: 30px;
+    color:white;
+    text-align: right;
+}
+
+.fab:hover{
+    color: #d14f11;
+}
+.portfolio-wrapper{
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.portfolio-wrapper h1{
+    text-align: center;
+    margin: 50px 0px;
+    font-size: 35px;
+}
+
+.portfolio-list li{
+   width: 50%;
+   float: left;
+   list-style: none;
+   margin-bottom: 30px;
+}
+
+.portfolio-list li img{
+    width: 30%;
+    height: 300px;
+    border: 2px solid #5e5b5b;
+    float: left;
+}
+
+.portfolio-list-content {
+    padding: 0px 20px;
+    overflow: hidden;
+}
+
+.portfolio-list-content h2{
+    color: #d14f11;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 700px){
+    .social-icon ul{
+        float: left;
+    }
+
+    .bg-img{
+        height: 100%;
+    }
+
+    .name h1{
+        font-size: 28px;    
+    }
+    
+    .name h2{
+        font-size: 22px;
+    }
+    
+    .name p{
+        font-size: 14px;
+    }
+    
+    .portfolio-list li{
+        width: 100%;
+    }
+
+}
