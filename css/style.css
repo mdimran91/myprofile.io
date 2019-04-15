@@ -93,7 +93,7 @@ body{
 }
 
 .fab:hover{
-    color: #d14f11;
+    color: #e44d26;
 }
 
 .portfolio{
@@ -129,11 +129,56 @@ body{
 }
 
 .portfolio-list-content h2{
-    color: #d14f11;
+    color: #e44d26;
     margin-bottom: 10px;
 }
 
+
+/*********** Qualification ************************/
+.header h1{
+    text-align: center;
+    font-size: 30px;
+    margin: 50px 0px;
+}
+
+.qualification-wrapper{
+    width: 50%;
+    margin-bottom: 50px;
+    float: left;
+}
+.qualification-wrapper li{
+    margin: 20px;
+    list-style: none;
+    background-color: #e44d26;
+    padding: 20px;
+    color: white;
+}
+
+.qualification-wrapper li:nth-child(2){
+    background-color: #1758a7;
+}
+.qualification-wrapper li:nth-child(3){
+    background-color: #d6ba32;
+}
+.certification{
+    width: 50%;
+    float: right;
+}
+
+.certification-wrapper img{
+    width: 100%;
+    height: 350px;
+    margin-top: 20px;
+}
+
+
 @media only screen and (max-width: 700px){
+    
+    .container-main{
+        width: 96%;
+        margin: 0 auto;
+    }
+    
     .social-icon ul{
         float: left;
     }
@@ -158,4 +203,14 @@ body{
         width: 100%;
     }
 
+    .qualification-wrapper{
+        width: 100%;
+        margin-bottom: 50px;
+        float: left;
+    }
+
+    .certification{
+        width: 100%;
+        float: none;
+    }
 }
