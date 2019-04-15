@@ -95,7 +95,39 @@ body{
 .fab:hover{
     color: #e44d26;
 }
+/******* Skills  *******/
+.skills{
+background-color: #bb9e0f;
+}
+.skills-wrapper{
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
 
+.header-skills h1{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin: 50px 0px;
+}
+.skills-wrapper ul{
+    width: 100%;
+    margin: 0px 10%;
+}
+
+.skills-wrapper li{
+float: left;
+list-style: none;
+padding: 0px 20px;
+padding-bottom: 20px;
+}
+
+
+
+
+/******** Portfolio********/
 .portfolio{
     background: rgba(238,238,238, 1);
 }
@@ -209,10 +241,28 @@ body{
     color: #e44d26;
 }
 
+
+/****** Personal ********/
+.personal{
+    margin-bottom: 50px;
+}
+
+/****Footer***/
+footer{
+    background-color: #434343;
+}
+
+footer p{
+    color: white;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+
 @media only screen and (max-width: 700px){
     
     .container-main{
-        width: 92%;
+        width: 94%;
         margin: 0 auto;
     }
     
@@ -236,6 +286,11 @@ body{
         font-size: 14px;
     }
     
+    .header h1{
+        text-align: center;
+        font-size: 24px;
+        margin: 30px 0px;
+    }
     .portfolio-list li{
         width: 100%;
     }
