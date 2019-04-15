@@ -195,6 +195,19 @@ body{
     color: #e44d26;
 }
 
+.portfolio-list table{
+    margin: 20px 0px;
+}
+
+.portfolio-list a{
+    color: #1758a7;
+    text-decoration: none;
+    margin: 20px 0px;
+}
+
+.portfolio-list a:hover{
+    color: #e44d26;
+}
 
 @media only screen and (max-width: 700px){
     
@@ -241,4 +254,5 @@ body{
     .certification-wrapper img{
         height: 250px;
     }
+   
 }
